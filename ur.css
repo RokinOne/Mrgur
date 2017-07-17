@@ -1,5 +1,12 @@
+html {
+  
+}
+
 h1 {
-  font-size: 40px;    
+  margin: 0;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
 }
   
 #wiac {
@@ -33,16 +40,17 @@ h1 {
 }
 
 body {
-  max-width: 1200px;
   margin: 0 auto;
   background: #aaa;
 }
 header {
+  width: 100%;
   text-align: center;
   font-family: Arial, sans-serif;
   background: #eee;
 }
 main {
+  margin: 24px;
   background: #bbb;
 }
 .cell {
